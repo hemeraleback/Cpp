@@ -14,9 +14,9 @@ int main(){
     }
     else if (num1 < 0 )                                                                                 //condition
     {
-	    cout << "Your Number is positive " << endl;                                                     //output
+	    cout << "Your Number is positive " << endl;                                                 //output
     }
-	else                                                                                                //if condition isn't true
+	else                                                                                            //if condition isn't true
         cout << "Your Number is not positive and not negative because is equal to zero " << endl;       //output
     system("PAUSE");                                                                                    //pause the code until you press any key
     return 0;
