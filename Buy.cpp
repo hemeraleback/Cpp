@@ -1,5 +1,5 @@
-#include <iostream>                                                                 //obligatory library of C++
-using namespace std;                                                                //library that make you write only "cout" instead of "std::cout"
+#include <iostream>                                                                 	//obligatory library of C++
+using namespace std;                                                                	//library that make you write only "cout" instead of "std::cout"
 
 int main() {
 	
@@ -12,10 +12,10 @@ int main() {
 	
 	do{                                                                             //start of a do-while
 
-		cout<<"How many money do you want to add? \t : " << endl;                   //output              
-		cin >> add ;                                                                //input
+		cout<<"How many money do you want to add? \t : " << endl;               //output              
+		cin >> add ;                                                            //input
 
-		saving += add;                                                              //calcultions
+		saving += add;                                                          //calcultions
 
 	}
 	while(saving < price);                                                          //end of a do-while
@@ -23,9 +23,9 @@ int main() {
 	rest = saving - price;                                                          //calculations
 	
 	if(rest == 0){                                                                  //conditions
-		cout<<"Now you can buy it" << endl;                                         //output
-    }else{                                                                          //if condition isn' true
-		cout<<"Now you can buy it and you saved " << rest << " euro" << endl;       //output
+		cout<<"Now you can buy it" << endl;                                     //output
+    }else{                                                                          	//if condition isn' true
+		cout<<"Now you can buy it and you saved " << rest << " euro" << endl;   //output
     }
 	system("PAUSE");                                                                //pause the code until you press any key
 	return 0;
