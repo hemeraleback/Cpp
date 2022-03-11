@@ -1,33 +1,31 @@
-#include <iostream>                                                                                     //obligatory library of C++
-using namespace std;                                                                                    //library that make you write only "cout" instead of "std::cout"
+#include <iostream>
+using namespace std;
 
 int main(){
 
-    float children, adults, people, extra;                                                              //declaration of variables
+    double children, adults, people, extra;
 
-    do {                                                                                                //start of a do-while
-
-        cout<<"Enter how many adults get on the carousel" << endl;                                      //output
-        cin>>adults;                                                                                    //input
+    do {
+        cout<<"Enter how many adults get on the carousel" << endl;
+        cin>>adults;
         
-        people = people + adults;                                                                       //calculations
+        people += adults;
 
-        cout<<"Enter how many children get on the carousel" << endl;                                    //output
-        cin>>children;                                                                                  //input
+        cout<<"Enter how many children get on the carousel" << endl;
+        cin>>children;
 
-        people = people + (children/2);                                                                 //calculations
+        people += (children/2);
     }
-    while(people < 30);                                                                                 //end of do-while
+    while(people < 30);
 
-    if (people> 30)                                                                                     //condition
+    if (people> 30){
+        extra = people - 30;
+        cout<<"the maximum number of people has been exceeded " << extra << " must get off"<< endl;
+    }
+    else
     {
-        extra = people - 30;                                                                            //calculations
-        cout<<"the maximum number of people has been exceeded " << extra << " must get off"<< endl;     //output
+        cout<<"the carousel has started" << endl;
     }
-    else                                                                                                //if condition isn't true
-    {
-        cout<<"the carousel has started" << endl;                                                       //output
-    }
-    system("PAUSE");                                                                                    //pause the code until you press any key
+    system("PAUSE");
     return 0;
 }
