@@ -1,29 +1,28 @@
-#include <iostream>					//obligatory library of C++
-using namespace std;					//library that make you write only "cout" instead of "std::cout"
-int	main(){
+#include <iostream>
+using namespace std;
+int main(){
 	
-	int angle;					//declaration of variables
+	int angle;
 
-	cout<<"write the measure of the angle \t: ";	//output
-	cin>>angle;					//input
-{
-	if (angle == 90)				//condition
-{
-	cout<<"The angle is right" << endl;		//output
-}
-else if (angle < 90 and angle < 360)			//condition
-{
-	cout<<"The angle is acute" << endl <<;		//output
-}
-else if (angle > 90 and angle < 360)			//condition							
-{
-	cout<<"The angle is obtuse" << endl <<;		//output
-}
-else if (angle > 360)					//condition
-{
-	cout<<"The misure is too big" << endl <<;	//output
-}}
-system("PAUSE");					//pause the code until you press any key
-return 0;
-}
+	cout<<"Write the measure of the angle \t: ";
+	cin>>angle;
 
+	if (angle == 90){
+	cout<<"The angle is right" << endl;
+	}
+	
+	if (angle < 90 && angle < 360){
+	cout<<"The angle is acute" << endl <<;
+	}
+	
+	if (angle > 90 && angle < 360){
+	cout<<"The angle is obtuse" << endl <<;	
+	}
+	
+	if (angle > 360){
+	cout<<"The misure is too big" << endl <<;
+	}
+
+	system("PAUSE");
+	return 0;
+}
