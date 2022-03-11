@@ -1,20 +1,21 @@
-#include <iostream>                                                         //obligatory library of C++
-using namespace std;                                                        //library that make you write only "cout" instead of "std::cout"
+#include <iostream>
+using namespace std;
 int main()
 {
-    int base, height, area, perimeter;                                      //declaration of variables
+    double base, height, area, perimeter;
     
-    cout << "Enter the base \t: ";                                          //output
-    cin >> base;                                                            //input
-    cout <<"Enter the Height \t: ";                                         //output
-    cin >> height;                                                          //input
+    cout << "Enter the base \t: ";
+    cin >> base;
+    
+    cout <<"Enter the Height \t: ";
+    cin >> height
 
-    perimeter = (base + height) * 2;                                        //calculations
-    area = base * height;                                                   //calculations
+    perimeter = (base + height) * 2;
+    area = base * height;
 
-    cout <<"The measure of the perimeter is \t: " << perimeter << endl;     //output
-    cout <<"The measure of the area is \t: " << area << endl;               //output
+    cout <<"The measure of the perimeter is \t: " << perimeter << endl;
+    cout <<"The measure of the area is \t: " << area << endl;
 
-system("PAUSE");                                                            //pause the code until you press any key
+system("PAUSE");
 return 0;
 }
