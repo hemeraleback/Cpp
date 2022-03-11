@@ -1,26 +1,26 @@
-#include <iostream>                                                                 //obligatory library of C++
-using namespace std;                                                                //library that make you write only "cout" instead of "std::cout"
+#include <iostream>
+using namespace std;
 int	main(){
 
-    int distance, consume, liter, travel, daily, weekly;                            //declaration of variables
+    int distance, consume, liter, travel, daily, weekly;
 
-    cout<<"Enter the distance you need to travel" << endl;                          //output
-    cin>>distance;                                                                  //input
+    cout<<"Enter the distance you need to travel" << endl;
+    cin>>distance;
 
-    cout<<"Enter how much you consume for each kilometer" << endl;                  //output
-    cin>>consume;                                                                   //input
+    cout<<"Enter how much you consume for each kilometer" << endl;
+    cin>>consume;
 
-    cout<<"Enter how much you spend on a liter" << endl;                            //output
-    cin>>liter;                                                                     //input
+    cout<<"Enter how much you spend on a liter" << endl;
+    cin>>liter;
 
-    travel=consume*distance;                                                        //calculations
-    daily=travel*liter;                                                             //calculations
-    weekly=daily*6;                                                                 //calculations
+    travel=consume*distance;
+    daily=travel*liter;
+    weekly=daily*6;
 
-    cout<<"The consumption for each trip is \t: " << travel << " euros" << endl;    //output
-    cout<<"The daily cost is \t: " << daily << " euros" << endl;                    //output
-    cout<<"The weekly cost is \t: " << weekly << "euros " << endl;                  //output
+    cout<<"The consumption for each trip is \t: " << travel << " euros" << endl;
+    cout<<"The daily cost is \t: " << daily << " euros" << endl;
+    cout<<"The weekly cost is \t: " << weekly << "euros " << endl;
 
-system("PAUSE");                                                                    //pause the code until you press any key
+system("PAUSE");
 return 0;
 }
