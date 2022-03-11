@@ -1,25 +1,23 @@
-#include <iostream>                                                 //obligatory library of C++
-using namespace std;                                                //library that make you write only "cout" instead of "std::cout"
+#include <iostream>
+using namespace std;
 int main()
 {
-    int num1, num2;                                                 //declaration of variables
+    double num1, num2;
 
-    cout << "Enter the first number \t: ";                          //output
-    cin >> num1;                                                    //input
-    cout << "Enter the second number \t: ";                         //output
-    cin >> num2;                                                    //input
+    cout << "Enter the first number \t: ";
+    cin >> num1;
+    
+    cout << "Enter the second number \t: ";
+    cin >> num2;
 
-    if (num1 > num2)                                                //condition
-    {
-        cout << "The smallest number is : \t" << num1 << endl;      //output
-        cout << "The biggest number is : \t" << num2 << endl;       //output
+    if (num1 > num2){
+        cout << "The smallest number is " << num1 << " and the biggest number is " << num2 << endl;
     }
-    else                                                            //if condition isn't true
-    {
-        cout << "The smallest number is : \t" << num2 << endl;      //output
-        cout << "The biggest number is : \t" << num1 << endl;       //output
+    
+    if (num1 < num2){
+        cout << "The smallest number is " << num2 << " and the biggest number is " << num1 << endl;
     }
 
-    system("PAUSE");                                                //pause the code until you press any key
+    system("PAUSE");
     return 0;
 }
