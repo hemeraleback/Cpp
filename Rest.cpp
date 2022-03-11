@@ -1,26 +1,26 @@
-#include <iostream>                                                                                 //obligatory library of C++
-using namespace std;                                                                                //library that make you write only "cout" instead of "std::cout"
+#include <iostream>
+using namespace std;
 int main()
 {
-    int money, rest, poor, cost;                                                                    //declaration of variables
+    double money, rest, poor, cost;
 
-    cout <<"Enter how much money you have \t: ";                                                    //output
-    cin >> money;                                                                                   //input        
-    cout <<"Enter how much the product costs \t: ";                                                 //output  
-    cin >> cost;                                                                                    //input
+    cout <<"Enter how much money you have \t: ";
+    cin >> money;
     
-    poor=cost-money;                                                                                //calculations
-    rest=money-cost;                                                                                //calculations
+    cout <<"Enter how much the product costs \t: ";
+    cin >> cost;
+    
+    poor=cost-money;
+    rest=money-cost;
 
-    if (cost>money)                                                                                 //condition
-    {
-        cout<<"You don't have enough money, you are missing \t: " << poor << " euros " <<endl;      //output
+    if (cost>money){
+        cout<<"You don't have enough money, you are missing \t: " << poor << " euros " <<endl;
     }
-    else                                                                                            //if condition isn't true
+    else
     {
-        cout<<"You can buy this product and you are missing \t: " << rest << " euros " << endl;     //output
+        cout<<"You can buy this product and you are missing \t: " << rest << " euros " << endl;
     }
 
-system("PAUSE");                                                                                    //pause the code until you press any key
+system("PAUSE");
 return 0;
 }
