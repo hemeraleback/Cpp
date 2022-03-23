@@ -1,1 +1,1 @@
-Those are some of my C++ work, and some of my assigment translated in English
+Those are some of my C++ works, and some of my school assigment translated in English
