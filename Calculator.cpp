@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    double n1, n2, somma;
+    double n1, n2, sum;
     char ol;
     bool exit;
 
@@ -29,23 +29,23 @@ int main(){
 
     if(ol == '+')
     {
-        somma = n1 + n2;
-        cout<<n1 << " + " << n2 << " = " << somma;
+        sum = n1 + n2;
+        cout<<n1 << " + " << n2 << " = " << sum;
     }
     else if(ol == '-')
     {
-        somma = n1 - n2;
-        cout<<n1 << " - " << n2 << " = " << somma;
+        sum = n1 - n2;
+        cout<<n1 << " - " << n2 << " = " << sum;
     }
     else if(ol == '*')
     {
-        somma = n1 * n2;
-        cout<<n1 << " * " << n2 << " = " << somma;
+        sum = n1 * n2;
+        cout<<n1 << " * " << n2 << " = " << sum;
     }
     else if(ol == '/')
     {
-        somma = n1 / n2;
-        cout<<n1 << " / " << n2 << " = " << somma;
+        sum = n1 / n2;
+        cout<<n1 << " / " << n2 << " = " << sum;
     }
     return 0;
 }
