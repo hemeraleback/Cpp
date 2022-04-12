@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    double n1, n2, sum;
+    double n1, n2;
     char ol;
     bool exit;
 
@@ -27,25 +27,13 @@ int main(){
     cout<<"Enter the second number: ";
     cin>>n2;
 
-    if(ol == '+')
+    switch (ol)
     {
-        sum = n1 + n2;
-        cout<<n1 << " + " << n2 << " = " << sum;
+        case '+':cout<<n1 << " + " << n2 << " = " << (n1+n2); break;
+        case '-':cout<<n1 << " - " << n2 << " = " << (n1-n2); break;
+        case '*':cout<<n1 << " * " << n2 << " = " << (n1*n2); break;
+        case '/':cout<<n1 << " / " << n2 << " = " << (n1/n2); break;
     }
-    else if(ol == '-')
-    {
-        sum = n1 - n2;
-        cout<<n1 << " - " << n2 << " = " << sum;
-    }
-    else if(ol == '*')
-    {
-        sum = n1 * n2;
-        cout<<n1 << " * " << n2 << " = " << sum;
-    }
-    else if(ol == '/')
-    {
-        sum = n1 / n2;
-        cout<<n1 << " / " << n2 << " = " << sum;
-    }
+    
     return 0;
 }
