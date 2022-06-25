@@ -13,7 +13,7 @@ int main(){
     }
 	
     if (num > 0 ){
-	    cout << "Your Number is positive " << endl;
+	cout << "Your Number is positive " << endl;
     }
     
     if (num == 0){
