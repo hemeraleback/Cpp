@@ -2,14 +2,14 @@
 using namespace std;
 int main() {
 	
-	int numbers=0, number, average, i=0;
+	double numbers, number=0, average, i=0;
 	char stop='y';
 	
 	for(;stop == 'y'; i++){
 		cout<<"Enter the number:";
 		cin>>number;
 		
-		number+=number;
+		numbers = number + numbers;
 		
 		cout<<"Do you want to enter any other number? :";
 		cin>>stop;
