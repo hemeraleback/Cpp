@@ -3,14 +3,14 @@ using namespace std;
 
 int main() {
 	
-	int price, saving=0, add, rest;
+	int price, saving=0, add;
 	
-	cout <<"Enter the price \t : " << endl;
+	cout <<"Enter the price : ";
 	cin >> price;
 	
 	do{
 
-		cout<<"How many money do you want to add? \t : " << endl;           
+		cout<<"You are missing "<<price - saving<<endl<<"How many money do you want to add? : ";           
 		cin >> add;
 
 		saving += add;
@@ -18,15 +18,11 @@ int main() {
 	}
 	while(saving < price);
 	
-	rest = saving - price;
-	
-	if(rest == 0){
+	if(saving - price == 0)
 		cout<<"Now you can buy it" << endl;
-    	}
 	else
-	{
-		cout<<"Now you can buy it and you saved " << rest << " euro" << endl;
-   	}
+		cout<<"Now you can buy it and you saved " << saving - price << " euros" << endl;
+		
 	system("PAUSE");
 	return 0;
 }
