@@ -12,6 +12,5 @@ int main(){
     cout <<"The measure of the perimeter is " << (base + height) * 2 << endl;
     cout <<"The measure of the area is " << base * height << endl;
 
-system("PAUSE");
 return 0;
 }
