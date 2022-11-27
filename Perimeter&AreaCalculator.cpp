@@ -1,20 +1,16 @@
 #include <iostream>
 using namespace std;
-int main()
-{
-    double base, height, area, perimeter;
+int main(){
+    double base, height;
     
-    cout << "Enter the base \t: ";
+    cout << "Enter the base: ";
     cin >> base;
     
-    cout <<"Enter the Height \t: ";
-    cin >> height
+    cout <<"Enter the Height: ";
+    cin >> height;
 
-    perimeter = (base + height) * 2;
-    area = base * height;
-
-    cout <<"The measure of the perimeter is \t: " << perimeter << endl;
-    cout <<"The measure of the area is \t: " << area << endl;
+    cout <<"The measure of the perimeter is " << (base + height) * 2 << endl;
+    cout <<"The measure of the area is " << base * height << endl;
 
 system("PAUSE");
 return 0;
