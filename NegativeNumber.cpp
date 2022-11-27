@@ -15,6 +15,5 @@ int main(){
     else
         cout << "Your Number is not positive and not negative because is equal to zero " << endl;
 	
-    system("PAUSE");
     return 0;
 }
