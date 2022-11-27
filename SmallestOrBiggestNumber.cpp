@@ -15,6 +15,5 @@ int main()
     else
         cout << "The smallest number is " << num2 << " and the biggest number is " << num1 << endl;
 
-    system("PAUSE");
     return 0;
 }
