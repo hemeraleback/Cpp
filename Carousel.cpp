@@ -23,6 +23,5 @@ int main(){
     else
         cout<<"the carousel has started" << endl;
         
-    system("PAUSE");
     return 0;
 }
