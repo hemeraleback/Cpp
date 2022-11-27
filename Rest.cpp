@@ -2,24 +2,18 @@
 using namespace std;
 int main()
 {
-    double money, rest, poor, cost;
+    double money, cost;
 
-    cout <<"Enter how much money you have \t: ";
+    cout <<"Enter how much money you have: ";
     cin >> money;
     
-    cout <<"Enter how much the product costs \t: ";
+    cout <<"Enter how much the product costs: ";
     cin >> cost;
-    
-    poor=cost-money;
-    rest=money-cost;
 
-    if (cost>money){
-        cout<<"You don't have enough money, you are missing \t: " << poor << " euros " <<endl;
-    }
+    if (cost>money)
+        cout<<"You don't have enough money, you are missing " << cost-money << " euros " <<endl;
     else
-    {
-        cout<<"You can buy this product and you are missing \t: " << rest << " euros " << endl;
-    }
+        cout<<"You can buy this product and you saved " << money-cost << " euros " << endl;
 
 system("PAUSE");
 return 0;
