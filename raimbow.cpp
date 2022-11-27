@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>
 using namespace std;
 
 int n;
@@ -10,7 +9,7 @@ void rn(){
 }
 
 int main(){
-	while (1==1){
+	while (true){
 		system("COLOR 8");
 		rn();
 		system("COLOR 9");
