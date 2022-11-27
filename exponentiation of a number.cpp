@@ -10,9 +10,8 @@ int main(){
     cout<<"Enter the exponentation: ";
     cin>>exponentation;
 
-    for(result = number;i!=exponentation;i++){
-        result = result * number;
-    }
+    for(result = number;i!=exponentation;i++)
+        result *= number;
 
     cout<<number<<"^"<<exponentation<<" = "<<result;
 
