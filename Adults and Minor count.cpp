@@ -27,6 +27,5 @@ int main(){
 
     cout<<"The are " << Adults << " adults, and " << Minor << " minor" << endl;
 
-    system("PAUSE");
     return 0;
 }
