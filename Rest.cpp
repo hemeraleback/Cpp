@@ -15,6 +15,5 @@ int main()
     else
         cout<<"You can buy this product and you saved " << money-cost << " euros " << endl;
 
-system("PAUSE");
 return 0;
 }
