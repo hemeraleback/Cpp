@@ -17,6 +17,5 @@ int main() {
 	
 	cout<<"Your average is " << sum/i << endl;
 	
-	system("PAUSE");
 	return 0;
 }
