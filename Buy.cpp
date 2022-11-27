@@ -9,12 +9,10 @@ int main() {
 	cin >> price;
 	
 	do{
-
 		cout<<"You are missing "<<price - saving<<endl<<"How many money do you want to add? : ";           
 		cin >> add;
 
 		saving += add;
-
 	}
 	while(saving < price);
 	
@@ -23,6 +21,5 @@ int main() {
 	else
 		cout<<"Now you can buy it and you saved " << saving - price << " euros" << endl;
 		
-	system("PAUSE");
 	return 0;
 }
