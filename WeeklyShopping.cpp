@@ -21,6 +21,5 @@ int	main(){
     cout<<"The daily cost is " << daily << " euros" << endl;
     cout<<"The weekly cost is " << weekly << "euros " << endl;
 
-system("PAUSE");
 return 0;
 }
