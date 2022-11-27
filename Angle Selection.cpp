@@ -21,6 +21,5 @@ int main(){
 	if (angle > 90)
 	cout<<"The angle is obtuse" << endl;	
 	
-	system("PAUSE");
 	return 0;
 }
