@@ -18,14 +18,11 @@ int main(){
     }
     while(people < 30);
 
-    if (people> 30){
-        extra = people - 30;
-        cout<<"the maximum number of people has been exceeded " << extra << " must get off"<< endl;
-    }
+    if (people> 30)
+        cout<<"the maximum number of people has been exceeded " << people - 30 << " must get off"<< endl;
     else
-    {
         cout<<"the carousel has started" << endl;
-    }
+        
     system("PAUSE");
     return 0;
 }
