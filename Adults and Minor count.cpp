@@ -3,7 +3,7 @@ using namespace std;
 int main(){
 
     int Adults=0, Minor=0, Age;
-    char Stop='n';
+    char Stop='y';
     
     do{
 
@@ -15,7 +15,7 @@ int main(){
         else
             Minor++;
         
-        cout<<"Do You want to add other people [y/n] \t:";
+        cout<<"Do You want to add other people [y/n] :";
         cin>>Stop;
         
     }
